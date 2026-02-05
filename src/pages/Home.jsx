@@ -124,14 +124,14 @@ const Button = React.forwardRef(
       {/* 🔹 3 Products */}
       {products.map((product) => (
   <Link to={`/product/${product.docId}`} key={product.docId}>
-    <Card className="p-4 min-h-[420px]">
+    <Card className="p-4">
       <img
         src={product.image}
         alt={product.name}
         className="w-full h-40 object-cover rounded-md mb-4"
       />
 
-      <h3 className="font-bold mb-2">{product.name}</h3>
+      <h3 className="font-bold mb-2 line-clamp-1">{product.name}</h3>
 
       <p className="text-sm text-muted-foreground mb-4">
         Physical Form: {product.physicalForm}

@@ -389,7 +389,7 @@ alt={`${product.name} pharmaceutical product supplier from India`}
                       className="w-full h-40 object-cover rounded-md mb-4 animate-fade-in"
                     />
 
-                    <h3 className="font-bold mb-2 animate-slide-in">{product.name}</h3>
+                    <h3 className="font-bold mb-2 animate-slide-in line-clamp-1">{product.name}</h3>
 
                     <p className="text-sm text-muted-foreground mb-4 animate-slide-in">
                       Physical Form: {product.physicalForm}
