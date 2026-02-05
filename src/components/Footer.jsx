@@ -94,12 +94,24 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="w-full border-t border-gray-800">
-  <div className="max-w-7xl mx-auto px-4 py-5 text-center">
-    <p className="text-xs sm:text-sm font-semibold text-slate-500 tracking-wide">
-      © {new Date().getFullYear()} SunElite Pharma | All rights reserved.
-    </p>
-  </div>
-</div>
+      <div className="max-w-7xl mx-auto px-4 py-5 text-center">
+        <p className="text-xs sm:text-sm font-semibold text-slate-500 tracking-wide">
+          © {new Date().getFullYear()} SunElite Pharma | All rights reserved.
+        </p>
+
+        <p className="text-xs sm:text-sm text-slate-600 mt-1">
+          Designed & Developed by{" "}
+          <Link
+            // to="mailto:devsphere.tech01@gmail.com?subject=Website%20Development%20Inquiry"
+            className="font-semibold text-slate-400 hover:text-slate-300 transition"
+  to="#"
+  onClick={() => window.location.href = "mailto:devsphere.tech01@gmail.com"}
+>
+            Devsphere
+          </Link>
+        </p>
+      </div>
+    </div>
     </footer>
   );
 };
