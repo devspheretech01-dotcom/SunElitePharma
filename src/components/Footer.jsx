@@ -31,12 +31,12 @@ const Footer = () => {
   supplying high-quality generic medicines to global healthcare
   distributors, hospitals, and importers.
 </p>
-
+{/* 
           <div className="flex gap-4 text-gray-400">
             <Facebook className="hover:text-white cursor-pointer" />
             <Instagram className="hover:text-white cursor-pointer" />
             <Linkedin className="hover:text-white cursor-pointer" />
-          </div>
+          </div> */}
         </div>
 
         {/* Quick Links */}
@@ -46,7 +46,7 @@ const Footer = () => {
             <Link to="/" className="hover:text-white">Home</Link>
 <Link to="/products" className="hover:text-white">Products</Link>
 <Link to="/about" className="hover:text-white">About Us</Link>
-<Link to="/contact" className="hover:text-white">Contact</Link> </div>
+<Link to="/contact" className="hover:text-white">Contact Us</Link> </div>
         </div>
 
         {/* Contact Us */}
@@ -62,12 +62,12 @@ const Footer = () => {
 
 <li className="flex gap-3">
   <Phone className="text-blue-500" size={18} />
-  +91 93138 79663
+  +91 93138 79663 , +91 7623957163
 </li>
 
 <li className="flex gap-3">
   <Mail className="text-blue-500" size={18} />
-  contact@sunelitepharma.com
+  info@sunelitepharma.com
 </li>
 
           </ul>

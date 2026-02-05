@@ -149,13 +149,13 @@ const Contact = () => {
     {
   icon: Mail,
   label: "Email Us",
-  value: "contact@sunelitepharma.com",
-  href: "mailto:contact@sunelitepharma.com",
+  value: "info@sunelitepharma.com",
+  href: "mailto:info@sunelitepharma.com",
 },
     {
   icon: Phone,
   label: "Call Us",
-  value: "+91 93138 79663",
+  value: "+91 93138 79663 ,+91 7623957163",
   href: "tel:+919313879663",
 },
     {
